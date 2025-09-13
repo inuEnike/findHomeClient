@@ -1,13 +1,26 @@
 /* styles/resusable.css  */
 
+html {
+  overflow: auto; /* still scrollable */
+  -ms-overflow-style: none; /* IE 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Chrome, Safari, Edge */
+html::-webkit-scrollbar {
+  display: none; /* hide scrollbar */
+}
+
 .btn {
   border: none;
   padding: 15px 40px;
   border-radius: 10px;
   font-size: 15px;
-  font-weight: bold;
   cursor: pointer;
+  text-align: center;
   text-transform: uppercase;
+  min-width: 150px;
+  margin: auto;
 }
 .btn--primary {
   background: var(--btn-color);
@@ -22,9 +35,14 @@
 .btn .withIcon {
   display: flex;
   align-items: center;
-  gap: 3px;
+  justify-content: center;
+  gap: 5px;
 }
 
 .container {
-    margin: 0 8%;
+  margin: 0 8%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 0, "opsz" 20;
 }

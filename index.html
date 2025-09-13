@@ -14,48 +14,223 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
   </head>
   <body>
-    <section class="header container">
-      <nav class="nav">
-        <div class="logo">
-          <i class="fa-solid fa-house"></i>
-          <p>Find Home</p>
-        </div>
-        <ul class="nav-link-lists">
-          <li>Home</li>
-          <li>Property</li>
-          <li>About us</li>
-          <li>Contact us</li>
-        </ul>
-        <ul class="nav-link-lists">
-          <li>
-            <i class="fa-solid fa-user"></i>
-            <span>Login</span>
-          </li>
-          <li>
-            <i class="fa-solid fa-phone"></i>
-            <span>(257) 388-6895</span>
-          </li>
-        </ul>
-      </nav>
+    <!-- nav -->
+    <nav class="nav container">
+      <div class="logo">
+        <i class="fa-solid fa-house"></i>
+        <p>Find Home</p>
+      </div>
+      <ul class="nav-link-lists">
+        <li class="active">Home</li>
+        <li>Property</li>
+        <li>About us</li>
+        <li>Contact us</li>
+      </ul>
+      <ul class="nav-link-lists">
+        <li>
+          <i class="fa-solid fa-user"></i>
+          <span>Login</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-phone"></i>
+          <span>(257) 388-6895</span>
+        </li>
+      </ul>
+    </nav>
 
+    <section class="header container">
+      <!-- hero section  -->
       <div class="hero-image">
         <div class="hero-image-text">
           <h1 class="hero-image-text-header">
-            Find a home that suits your lifestyle.
+            Stylish homes with modern comforts in prime locations.
           </h1>
           <p class="hero-image-text-paragraph">
-            Nec risus quis viverra libero tellus eget. Leo morbi faucibus mattis
-            pharetra tellus velit ultricies duis rhoncus. Porttitor fermentum eu
-            urna eget
+            Experience modern living with stylish designs and all the amenities
+            you need. From spacious interiors to convenient locations, find a
+            home that balances comfort, elegance, and practicality.
           </p>
         </div>
       </div>
-
       <div class="header-form">
-        <h2>Hello</h2>
+        <form action="" class="filterForm">
+          <select name="" id="" class="filterSelectForm">
+            <option value="">Category</option>
+          </select>
+          <select name="" id="" class="filterSelectForm">
+            <option value="">Property Type</option>
+          </select>
+          <select name="" id="" class="filterSelectForm">
+            <option value="">Location</option>
+          </select>
+          <button class="filter">
+            <i class="fa-solid fa-arrow-up-short-wide"></i>
+          </button>
+          <button class="btn btn--primary">
+            <div class="withIcon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span>SEARCH</span>
+            </div>
+          </button>
+        </form>
       </div>
     </section>
+
+    <!-- featured property  -->
+    <section class="featured container">
+      <div class="feature">
+        <div class="featuredProperty">
+          <h2>Discover your featured property</h2>
+          <p>
+            Explore our handpicked properties that combine style, comfort, and
+            prime locations. Find your perfect home today and make it yours.
+          </p>
+        </div>
+        <div class="card--container">
+          <div class="card">
+            <div class="card--image">
+              <img src="./assets/hero-image2.webp" alt="" />
+            </div>
+            <div class="card--writeup">
+              <div class="card--text">
+                <h3 class="title">Division Road House</h3>
+                <p class="location">
+                  506 Division Road Pembroke Pines, FL 33028
+                </p>
+                <p class="price">$3000</p>
+              </div>
+
+              <div class="card--data">
+                <div class="data">
+                  <div class="data-info">
+                    <span class="material-symbols-outlined"> bed </span>
+                    <span>3</span>
+                  </div>
+                  <p>Bedrooms</p>
+                </div>
+                <div class="data">
+                  <div class="data-info">
+                    <span class="material-symbols-outlined"> bathtub </span>
+                    <span>2</span>
+                  </div>
+                  <p>Bathrooms</p>
+                </div>
+                <div class="data">
+                  <div class="data-info">
+                    <span class="material-symbols-outlined"> garage </span>
+                    <span>1</span>
+                  </div>
+                  <p>Garage</p>
+                </div>
+                <div class="data">
+                  <div class="data-info">
+                    <span class="material-symbols-outlined"> square_foot </span>
+                    <span>3</span>
+                  </div>
+                  <p>Total Area</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card--image">
+              <img src="./assets/hero-image.webp" alt="" />
+            </div>
+            <div class="card--writeup">
+              <div class="card--text">
+                <h3 class="title">Division Road House</h3>
+                <p class="location">
+                  506 Division Road Pembroke Pines, FL 33028
+                </p>
+                <p class="price">$3000</p>
+              </div>
+
+              <div class="card--data">
+                <div class="data">
+                  <div class="data-info">
+                    <span class="material-symbols-outlined"> bed </span>
+                    <span>3</span>
+                  </div>
+                  <p>Bedrooms</p>
+                </div>
+                <div class="data">
+                  <div class="data-info">
+                    <span class="material-symbols-outlined"> bathtub </span>
+                    <span>2</span>
+                  </div>
+                  <p>Bathrooms</p>
+                </div>
+                <div class="data">
+                  <div class="data-info">
+                    <span class="material-symbols-outlined"> garage </span>
+                    <span>1</span>
+                  </div>
+                  <p>Garage</p>
+                </div>
+                <div class="data">
+                  <div class="data-info">
+                    <span class="material-symbols-outlined"> square_foot </span>
+                    <span>3</span>
+                  </div>
+                  <p>Total Area</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card--image">
+              <img src="./assets/hero-image4.webp" alt="" />
+            </div>
+            <div class="card--writeup">
+              <div class="card--text">
+                <h3 class="title">Division Road House</h3>
+                <p class="location">
+                  506 Division Road Pembroke Pines, FL 33028
+                </p>
+                <p class="price">$3000</p>
+              </div>
+
+              <div class="card--data">
+                <div class="data">
+                  <div class="data-info">
+                    <span class="material-symbols-outlined"> bed </span>
+                    <span>3</span>
+                  </div>
+                  <p>Bedrooms</p>
+                </div>
+                <div class="data">
+                  <div class="data-info">
+                    <span class="material-symbols-outlined"> bathtub </span>
+                    <span>2</span>
+                  </div>
+                  <p>Bathrooms</p>
+                </div>
+                <div class="data">
+                  <div class="data-info">
+                    <span class="material-symbols-outlined"> garage </span>
+                    <span>1</span>
+                  </div>
+                  <p>Garage</p>
+                </div>
+                <div class="data">
+                  <div class="data-info">
+                    <span class="material-symbols-outlined"> square_foot </span>
+                    <span>3</span>
+                  </div>
+                  <p>Total Area</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/index.js"></script>
   </body>
 </html>
