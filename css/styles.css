@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #100e2c;
+  --btn-color: #0057ff;
+  --btn-color-2: #8eda53;
+  --text-color: #000000;
+  --text-heading-color-dark: #100e2c;
+  --text-heading-color-light: #ffffff;
+}
+
+html {
+  background-color: var(--primary-color);
+}
