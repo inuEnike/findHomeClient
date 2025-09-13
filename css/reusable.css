@@ -1,0 +1,26 @@
+/* styles/resusable.css  */
+
+.btn {
+  border: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.btn--primary {
+  background: var(--btn-color);
+  color: var(--primary-color);
+}
+
+.btn--secondary {
+  background: var(--btn-color-2);
+  color: var(--primary-color);
+}
+
+.btn .withIcon {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}

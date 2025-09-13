@@ -1,8 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 :root {
   --primary-color: #ffffff;
   --secondary-color: #100e2c;
@@ -11,6 +6,12 @@
   --text-color: #000000;
   --text-heading-color-dark: #100e2c;
   --text-heading-color-light: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
