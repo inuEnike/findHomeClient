@@ -24,16 +24,20 @@ html {
   position: relative;
 }
 
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.079);
+  position: sticky;
+  top: 0;
+  background-color: var(--primary-color);
+  z-index: 999;
+}
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 30px 10px;
   font-weight: lighter;
-  position: sticky;
-  top: 0;
-  background-color: var(--primary-color);
-  z-index: 999;
 }
 
 .logo {
