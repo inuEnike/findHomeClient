@@ -24,3 +24,7 @@
   align-items: center;
   gap: 3px;
 }
+
+.container {
+    margin: 0 8%;
+}
