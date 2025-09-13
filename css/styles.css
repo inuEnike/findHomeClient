@@ -25,7 +25,7 @@ html {
 }
 
 .navbar {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.079);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.079); */
   position: sticky;
   top: 0;
   background-color: var(--primary-color);
@@ -181,6 +181,7 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.079);
   padding-bottom: 20px;
   border-radius: 10px;
+  margin: 10px 0;
 }
 
 .card--container .card--image img {
@@ -229,4 +230,35 @@ html {
 .data p {
   font-size: 0.8rem;
   color: var(--text-light-color);
+}
+
+.call-to-action-section {
+  background-color: var(--text-heading-color-dark);
+  margin-bottom: 20px;
+  padding: 30px 0;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-heading-color-light);
+}
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cta .image {
+  width: 60%;
+  margin: auto;
+}
+.cta .image img {
+  width: 80%;
+  border-radius: 15px;
+}
+.cta .writeup h2 {
+  padding: 10px 0;
+}
+
+.cta .writeup p {
+  padding: 30px 0;
 }
