@@ -10,4 +10,5 @@
     </button>
 
     <!-- button without icon -->
-    <button class="btn btn--secondary">Login</button>
+          <button class="btn btn--primary">Learn More</button>
+                            

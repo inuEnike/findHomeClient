@@ -2,7 +2,7 @@
   --primary-color: #ffffff;
   --secondary-color: #100e2c;
   --btn-color: #0055ffd8;
-  --btn-color-2: #8eda53;
+  --btn-color-2: #75ec1a;
   --text-color: #000000;
   --text-heading-color-dark: #100e2c;
   --text-heading-color-light: #ffffff;
@@ -68,15 +68,14 @@ html {
   margin-top: 3px;
 }
 
-.logo i {
-  font-size: larger;
+.toggle {
+  display: none;
+  border: none;
+  background-color: transparent;
 }
 
-.carousel {
-  display: flex;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+.logo i {
+  font-size: larger;
 }
 
 .hero-image {
@@ -181,7 +180,9 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.079);
   padding-bottom: 20px;
   border-radius: 10px;
-  margin: 10px 0;
+  margin: 10px auto;
+  position: relative;
+  overflow: hidden;
 }
 
 .card--container .card--image img {
@@ -226,6 +227,9 @@ html {
   gap: 3px;
   align-items: center;
 }
+.data-info span {
+  font-weight: 100;
+}
 
 .data p {
   font-size: 0.8rem;
@@ -257,8 +261,66 @@ html {
 }
 .cta .writeup h2 {
   padding: 10px 0;
+  font-size: 2rem;
+  width: 80%;
 }
 
 .cta .writeup p {
+  width: 70%;
   padding: 30px 0;
+  line-height: 2rem;
+}
+
+.wcs {
+  display: flex;
+  flex-wrap: wrap; /* allows responsiveness */
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  gap: 20px;
+  width: 100%;
+}
+
+.what-client-says-section .writeup {
+  flex: 1 1 300px;
+  text-align: center;
+  width: 20%;
+}
+
+.what-client-says-section .writeup h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.what-client-says-section .writeup p {
+  line-height: 1.8rem;
+  padding: 10px 0;
+  font-style: italic;
+  color: #555;
+  width: 70%;
+  margin: auto;
+}
+
+.what-client-says-section .writeup h4 {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.what-client-says-section .writeup .role {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.what-client-says-section .image {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.what-client-says-section .image img {
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
 }
