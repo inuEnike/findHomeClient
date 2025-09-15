@@ -80,6 +80,10 @@ html {
   gap: 15px;
   font-size: 0.9rem;
 }
+.nav-link-lists a {
+  text-decoration: none;
+  color: var(--text-color);
+}
 
 .nav-link-lists .active {
   color: var(--text-heading-color-dark);
