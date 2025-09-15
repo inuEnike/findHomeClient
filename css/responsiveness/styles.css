@@ -31,6 +31,15 @@
     padding: 10px 0 0 0;
     color: var(--text-light-color);
   }
+
+  .commercial {
+    margin: 20% 0 0 0;
+  }
+  .CommercialProperty p {
+    font-size: 0.7rem;
+    padding: 10px 0 0 0;
+    color: var(--text-light-color);
+  }
   .nav-link-lists {
     font-size: 0.79rem;
   }
@@ -43,6 +52,13 @@
     background-color: var(--text-heading-color-dark);
     border-radius: 10px;
     width: 40%;
+  }
+  .footer footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 20px;
+    padding: 20px 10px;
   }
 }
 
@@ -109,6 +125,25 @@
   .contact-text {
     width: 45%;
   }
+  .footer {
+    height: auto;
+  }
+  .footer footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  .input-container input {
+    border: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    min-width: 20%;
+    margin: auto;
+    background-color: transparent;
+  }
 }
 
 @media (max-width: 717px) {
@@ -157,6 +192,16 @@
     width: 100%;
     text-align: center;
     padding: 10px;
+  }
+  .input-container {
+    flex-direction: column;
+  }
+  .footer-data h3 {
+    font-size: 1.5rem;
+  }
+
+  .footer-list h3 {
+    font-size: 1.5rem;
   }
 }
 

@@ -14,6 +14,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  list-style-type: none;
 }
 
 html {
@@ -63,7 +64,6 @@ html {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  list-style-type: none;
   gap: 50px;
 }
 
@@ -76,7 +76,6 @@ html {
 .nav-link-lists {
   display: flex;
   text-decoration: none;
-  list-style-type: none;
   align-items: center;
   gap: 15px;
   font-size: 0.9rem;
@@ -266,7 +265,7 @@ html {
 .call-to-action-section {
   background-color: var(--text-heading-color-dark);
   margin-bottom: 20px;
-  padding: 30px 0;
+  padding: 30px auto;
   height: 50vh;
   display: flex;
   justify-content: center;
@@ -417,4 +416,85 @@ html {
   font-size: 0.8em;
   padding-bottom: 10px;
   line-height: 1.5rem;
+}
+
+/* commercial  */
+.CommercialWrapper {
+  position: relative;
+}
+.commercial {
+  margin: 10% 0 0 0;
+}
+.CommercialProperty {
+  text-align: center;
+}
+
+.CommercialProperty h2 {
+  color: var(--text-heading-color-dark);
+  font-size: 2.5rem;
+}
+
+.CommercialProperty p {
+  font-weight: lighter;
+  font-size: 0.9rem;
+  padding: 10px 0 0 0;
+  color: var(--text-light-color);
+}
+
+/* footer  */
+
+.footer {
+  background-color: var(--text-heading-color-dark);
+  color: var(--primary-color);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+  width: auto;
+  justify-content: center;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  /* background: blue; */
+}
+.footer-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  /* background: red; */
+}
+
+.input-container {
+  border-radius: 10px;
+  padding: 5px;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+}
+
+.input-container input {
+  background-color: #0055ffd8;
+  border: none;
+  padding: 15px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  min-width: 50%;
+  margin: auto;
+  background-color: transparent;
+}
+
+.input-container input:focus {
+  outline: none;
 }
