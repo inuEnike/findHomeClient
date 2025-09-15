@@ -40,6 +40,33 @@ html {
   font-weight: lighter;
 }
 
+.mobile-nav {
+  display: none !important;
+  padding: 20px 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 80vh;
+}
+
+.mobile-nav-link-lists {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  list-style-type: none;
+  gap: 50px;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -323,4 +350,71 @@ html {
   max-width: 400px;
   height: auto;
   object-fit: cover;
+}
+.contact-us {
+  background: linear-gradient(rgba(2, 5, 40, 0.848), rgba(0, 0, 0, 0.848)),
+    url(../assets/hero-image.webp);
+  margin: 20px auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center center;
+  color: var(--primary-color);
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+.contact-form {
+  padding: 20px;
+  background-color: var(--text-heading-color-dark);
+  border-radius: 10px;
+  width: 25%;
+}
+.contact-form h3 {
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
+.contact-form p {
+  font-size: 0.8rem;
+  padding: 0 0 10px 0;
+  width: 80%;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px auto;
+}
+
+.contact-input {
+  padding: 12px 5px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contact-input:focus {
+  outline: none;
+  border: none;
+}
+
+.contact-text {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-text h2 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.contact-text p {
+  font-size: 0.8em;
+  padding-bottom: 10px;
+  line-height: 1.5rem;
 }

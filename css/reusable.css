@@ -66,7 +66,7 @@ html::-webkit-scrollbar {
 }
 
 .container {
-  margin: 0 7%;
+  margin: auto 7%;
 }
 
 .material-symbols-outlined {
@@ -75,6 +75,6 @@ html::-webkit-scrollbar {
 
 @media (max-width: 768px) {
   .container {
-    margin: 0 2%;
+    margin: auto 2%;
   }
 }

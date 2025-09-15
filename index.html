@@ -21,7 +21,7 @@
     />
   </head>
   <body>
-    <!-- nav -->
+    <!-- nav section -->
     <section class="navbar">
       <nav class="nav container">
         <div class="logo">
@@ -44,14 +44,34 @@
             <span>(257) 388-6895</span>
           </li>
         </ul>
-        <button class="toggle">
+        <button class="toggle" onclick="toggleNav()">
           <span class="material-symbols-outlined"> menu </span>
         </button>
       </nav>
+      <nav class="mobile-nav">
+        <div class="mobile-list">
+          <ul class="mobile-nav-link-lists">
+            <li class="mobile-nav-link-list-item">
+              <span class="material-symbols-outlined"> home </span>Home
+            </li>
+            <li class="mobile-nav-link-list-item">
+              <span class="material-symbols-outlined"> apartment </span>Property
+            </li>
+            <li class="mobile-nav-link-list-item">
+              <span class="material-symbols-outlined"> info </span>About us
+            </li>
+            <li class="mobile-nav-link-list-item">
+              <span class="material-symbols-outlined"> contact_mail </span
+              >Contact us
+            </li>
+          </ul>
+          <button class="btn btn--primary">Learn More</button>
+        </div>
+      </nav>
     </section>
 
+    <!-- hero section  -->
     <section class="header container">
-      <!-- hero section  -->
       <div class="hero-image">
         <div class="hero-image-text">
           <h1 class="hero-image-text-header">
@@ -404,8 +424,7 @@
       </div>
     </section>
 
-    <!-- what client says about us -->
-
+    <!-- what client says about us section-->
     <section class="what-client-says-section container">
       <div class="wcs">
         <div class="writeup">
@@ -428,6 +447,39 @@
       </div>
     </section>
 
+    <!-- contact section  -->
+    <section class="contact-us">
+      <div class="contact container">
+        <form class="contact-form">
+          <h3>Get In Touch</h3>
+          <p>
+            Stay connected with us and let’s help you find the perfect home.
+          </p>
+          <div class="inputs">
+            <input type="text" class="contact-input" placeholder="Your Name" />
+            <input type="text" class="contact-input" placeholder="Your Name" />
+            <input type="text" class="contact-input" placeholder="Your Name" />
+            <input type="text" class="contact-input" placeholder="Your Name" />
+            <textarea
+              name=""
+              cols="10"
+              rows="10"
+              class="contact-input"
+              id=""
+            ></textarea>
+          </div>
+          <button class="btn btn--primary">Semd Message</button>
+        </form>
+        <div class="contact-text">
+          <h2>Putting a plan to action, to assure your satisfaction!</h2>
+          <p>
+            We put our plans into action to make sure you’re fully satisfied,
+            paying attention to every detail so you can enjoy a smooth,
+            stress-free experience from start to finish.
+          </p>
+        </div>
+      </div>
+    </section>
     <script src="js/index.js">
       i
     </script>
