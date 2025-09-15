@@ -25,6 +25,10 @@
     padding: 10px 0 0 0;
     color: var(--text-light-color);
   }
+  .nav-link-lists {
+
+    font-size: 0.79rem;
+  }
 }
 
 @media (max-width: 768px) {
