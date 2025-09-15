@@ -214,6 +214,10 @@ html {
   position: relative;
   overflow: hidden;
 }
+.card a{
+  text-decoration: none;
+  color: var(--secondary-color);
+}
 
 .card--container .card--image img {
   width: 100%;

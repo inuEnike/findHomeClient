@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card">
+      <h3 class="title"></h3>
+      <p class="price"></p>
+      <p class="location"></p>
+    </div>
+
+    <script>
+      // Get the product ID from the URL
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+
+      fetch(`http://localhost:3007/property/get/${id}`)
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data.property);
+
+          document.querySelector(".title").innerText = data?.property?.title;
+          document.querySelector(
+            ".price"
+          ).innerText = `$${data.property?.price}`;
+          document.querySelector(".location").innerText =
+            data.property?.address.state;
+        })
+        .catch((err) => console.error("Error loading product:", err));
+    </script>
+  </body>
+</html>

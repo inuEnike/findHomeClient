@@ -20,6 +20,7 @@ const fetchProperty = async () => {
     console.log(property);
 
     card.innerHTML = `
+     <a href="product.html?id=${property._id}" class="">
           <div class="card--image">
             <img src="${
               property.photohs || "./assets/hero-image2.webp"
@@ -72,6 +73,7 @@ const fetchProperty = async () => {
               </div>
             </div>
           </div>
+          </a>
         `;
 
     cardContainer.appendChild(card);
